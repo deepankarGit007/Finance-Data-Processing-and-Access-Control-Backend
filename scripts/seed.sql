@@ -8,7 +8,7 @@
 --   analyst@finance.local → Analyst1234!
 --   viewer@finance.local  → Viewer1234!
 
-INSERT INTO users (id, email, full_name, hashed_password, "Role", is_active, created_at, updated_at)
+INSERT INTO users (id, email, full_name, hashed_password, role, is_active, created_at, updated_at)
 VALUES
   (gen_random_uuid(), 'admin@finance.local',
    'System Admin',
@@ -32,7 +32,7 @@ DECLARE
 BEGIN
   SELECT id INTO admin_id FROM users WHERE email = 'admin@finance.local';
 
-  INSERT INTO transactions (id, created_by_user_id, amount, "Type", category, date, notes, is_deleted, created_at, updated_at)
+  INSERT INTO transactions (id, created_by_user_id, amount, type, category, date, notes, is_deleted, created_at, updated_at)
   VALUES
     (gen_random_uuid(), admin_id, 5000.00,  'Income',  'Salary',       '2024-11-01', 'November salary',          false, NOW(), NOW()),
     (gen_random_uuid(), admin_id, 1200.00,  'Expense', 'Rent',         '2024-11-02', 'Monthly rent',             false, NOW(), NOW()),
