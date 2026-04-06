@@ -1,0 +1,25 @@
+## .NET build output
+bin/
+obj/
+
+## Environment files
+.env
+
+## Rider / VS / VS Code
+.idea/
+.vs/
+*.user
+*.suo
+*.DotSettings
+.vscode/
+
+## macOS
+.DS_Store
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## Logs
+*.log

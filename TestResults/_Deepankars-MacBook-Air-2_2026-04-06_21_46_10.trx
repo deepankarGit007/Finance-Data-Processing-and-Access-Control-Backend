@@ -1,0 +1,1301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5eedc012-4e2d-420d-958e-364ff886496f" name="@Deepankars-MacBook-Air-2 2026-04-06 21:46:10" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-04-06T21:46:10.2033250+05:30" queuing="2026-04-06T21:46:10.2033250+05:30" start="2026-04-06T21:46:08.4650520+05:30" finish="2026-04-06T21:46:10.3583020+05:30" />
+  <TestSettings name="default" id="3556c411-e6f0-4832-9561-c05d238e7fb4">
+    <Deployment runDeploymentRoot="_Deepankars-MacBook-Air-2_2026-04-06_21_46_10" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="c3e418f7-7744-4d20-b8e6-37d6edc2177f" testId="547c0ce6-c615-1d08-27f7-38fd28e34d55" testName="FinanceBackend.Tests.TransactionTests.GetTransactions_AsViewer_ReturnsOnlyOwnRecords" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0019557" startTime="2026-04-06T21:46:10.3281580+05:30" endTime="2026-04-06T21:46:10.3281580+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3e418f7-7744-4d20-b8e6-37d6edc2177f">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.GetTransactions_AsViewer_ReturnsOnlyOwnRecords() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 52
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="978eda8e-07b0-45ae-896e-b6abb1e76c03" testId="c3aa8a08-1d7c-938b-4c98-5f16ff8a1bf3" testName="FinanceBackend.Tests.TransactionTests.CreateTransaction_AsViewer_Returns403" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0057317" startTime="2026-04-06T21:46:10.2891390+05:30" endTime="2026-04-06T21:46:10.2891390+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="978eda8e-07b0-45ae-896e-b6abb1e76c03">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.CreateTransaction_AsViewer_Returns403() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 91
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4dac4381-7be2-4738-8732-8a3fcd0dd741" testId="867f3be1-4357-dd8c-b45f-4aafe0faa7b3" testName="FinanceBackend.Tests.AuthTests.Login_ValidCredentials_ReturnsToken" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0301961" startTime="2026-04-06T21:46:10.2865320+05:30" endTime="2026-04-06T21:46:10.2865320+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dac4381-7be2-4738-8732-8a3fcd0dd741">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected response.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.AuthTests.Login_ValidCredentials_ReturnsToken() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs:line 26
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed9d47e5-e794-4fdf-9dd3-88c14a39b19a" testId="2fc47ed2-3f58-1b1e-be1c-519d680b0b12" testName="FinanceBackend.Tests.UserTests.DeactivateUser_AsAdmin_Returns204" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0057276" startTime="2026-04-06T21:46:10.3249160+05:30" endTime="2026-04-06T21:46:10.3249160+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9d47e5-e794-4fdf-9dd3-88c14a39b19a">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.</Message>
+          <StackTrace>   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at FinanceBackend.Tests.UserTests.DeactivateUser_AsAdmin_Returns204() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 132
+--- End of stack trace from previous location ---
+----- Inner Stack Trace -----
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4aa02107-3387-4053-98c4-fd2f10236c3c" testId="1a915026-d29a-b691-631a-8c6f5103520d" testName="FinanceBackend.Tests.UnitTest1.Test1" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0010271" startTime="2026-04-06T21:46:08.7614900+05:30" endTime="2026-04-06T21:46:08.7615010+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4aa02107-3387-4053-98c4-fd2f10236c3c" />
+    <UnitTestResult executionId="75aaaa95-872b-4418-9954-b58483bbe5c4" testId="457bcedc-7efb-0c12-f6d2-ccd743f3df1c" testName="FinanceBackend.Tests.AuthTests.Me_WithoutToken_Returns401" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0015190" startTime="2026-04-06T21:46:10.2512150+05:30" endTime="2026-04-06T21:46:10.2512150+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75aaaa95-872b-4418-9954-b58483bbe5c4" />
+    <UnitTestResult executionId="0f92ce36-fb27-415a-b38d-61bfb96647a4" testId="e8e95d9d-02a9-895e-2c8f-935fbb782d61" testName="FinanceBackend.Tests.DashboardTests.Dashboard_WithoutToken_Returns401" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0015922" startTime="2026-04-06T21:46:10.3130280+05:30" endTime="2026-04-06T21:46:10.3130290+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f92ce36-fb27-415a-b38d-61bfb96647a4" />
+    <UnitTestResult executionId="2f42c891-43bf-4228-9361-0c3ca3c1c310" testId="f76a4fd6-6cd0-2bd8-15aa-7b59b2b11bd2" testName="FinanceBackend.Tests.DashboardTests.Trends_AsAdmin_Returns200WithData" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0046778" startTime="2026-04-06T21:46:10.2877230+05:30" endTime="2026-04-06T21:46:10.2877230+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f42c891-43bf-4228-9361-0c3ca3c1c310">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.DashboardTests.Trends_AsAdmin_Returns200WithData() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs:line 74
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="23ffae49-5653-4015-8a31-c8ae075c0477" testId="ce07db60-47ed-befc-7b03-682df35c249c" testName="FinanceBackend.Tests.UserTests.GetUserById_AsViewerForAnotherUser_Returns403" computerName="Deepankars-MacBook-Air-2" duration="00:00:01.5222210" startTime="2026-04-06T21:46:10.2867800+05:30" endTime="2026-04-06T21:46:10.2867800+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23ffae49-5653-4015-8a31-c8ae075c0477">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.GetUserById_AsViewerForAnotherUser_Returns403() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 116
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="188bfe95-8331-46ba-9bb3-62b1af2ecbff" testId="3aab175b-f49e-201c-cb0b-39e0dc4f3dbc" testName="FinanceBackend.Tests.AuthTests.Login_WrongPassword_Returns401" computerName="Deepankars-MacBook-Air-2" duration="00:00:01.4889484" startTime="2026-04-06T21:46:10.2491330+05:30" endTime="2026-04-06T21:46:10.2491330+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="188bfe95-8331-46ba-9bb3-62b1af2ecbff" />
+    <UnitTestResult executionId="3c75fa41-2572-4270-8b6f-7c84bddc5008" testId="b7f418df-0096-7ebf-cb25-4614409d117e" testName="FinanceBackend.Tests.AuthTests.Login_InvalidEmail_Returns422" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0275910" startTime="2026-04-06T21:46:10.3107380+05:30" endTime="2026-04-06T21:46:10.3107380+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c75fa41-2572-4270-8b6f-7c84bddc5008">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected response.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.BadRequest {value: 400}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.AuthTests.Login_InvalidEmail_Returns422() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs:line 56
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0c0d7c92-31a5-465a-bc0f-1bdd14839a30" testId="7ab904f7-668f-3275-e1eb-cc4bc6d8825f" testName="FinanceBackend.Tests.UserTests.GetAllUsers_AsAdmin_Returns200" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0040802" startTime="2026-04-06T21:46:10.3122450+05:30" endTime="2026-04-06T21:46:10.3122450+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c0d7c92-31a5-465a-bc0f-1bdd14839a30">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.GetAllUsers_AsAdmin_Returns200() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 36
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fe97bf8d-c760-4a0b-bfcb-05fc65804c2c" testId="f0481b62-fb39-58b5-f4f3-5b3ffaf4655b" testName="FinanceBackend.Tests.DashboardTests.ByCategory_AsAnalyst_Returns200" computerName="Deepankars-MacBook-Air-2" duration="00:00:01.5226267" startTime="2026-04-06T21:46:10.2855380+05:30" endTime="2026-04-06T21:46:10.2855380+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe97bf8d-c760-4a0b-bfcb-05fc65804c2c">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.DashboardTests.ByCategory_AsAnalyst_Returns200() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs:line 52
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b5c3826-12c1-47b4-bae4-8c142c9885ba" testId="74096125-3ba9-d503-df1c-3bb80087c06a" testName="FinanceBackend.Tests.UserTests.GetAllUsers_AsViewer_Returns403" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0033105" startTime="2026-04-06T21:46:10.2875160+05:30" endTime="2026-04-06T21:46:10.2875160+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b5c3826-12c1-47b4-bae4-8c142c9885ba">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.GetAllUsers_AsViewer_Returns403() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 49
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="90a00fa8-e636-4b4f-b1f6-9b83e9919dec" testId="70b45940-5a40-7fdf-35d7-2e91358ca04b" testName="FinanceBackend.Tests.UserTests.CreateUser_WeakPassword_Returns422" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0044154" startTime="2026-04-06T21:46:10.3075120+05:30" endTime="2026-04-06T21:46:10.3075120+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a00fa8-e636-4b4f-b1f6-9b83e9919dec">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.CreateUser_WeakPassword_Returns422() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 96
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="47190f2b-a84d-413a-9c5a-b13b5a000ee0" testId="b502fb20-1400-70a7-056d-d229e2be562b" testName="FinanceBackend.Tests.DashboardTests.Recent_AsAdmin_ReturnsUpTo10Records" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0031598" startTime="2026-04-06T21:46:10.3118560+05:30" endTime="2026-04-06T21:46:10.3118560+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="47190f2b-a84d-413a-9c5a-b13b5a000ee0">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.DashboardTests.Recent_AsAdmin_ReturnsUpTo10Records() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs:line 86
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4d18c768-3b81-4c76-9282-5b0b147fa71c" testId="8fe2c3f5-863f-2bde-fda8-d1c89a6eeb2a" testName="FinanceBackend.Tests.DashboardTests.Summary_AsViewer_Returns200WithCorrectTotals" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0173235" startTime="2026-04-06T21:46:10.3053120+05:30" endTime="2026-04-06T21:46:10.3053120+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d18c768-3b81-4c76-9282-5b0b147fa71c">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.DashboardTests.Summary_AsViewer_Returns200WithCorrectTotals() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs:line 37
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="95cd499f-6149-4406-a09b-f213a167d568" testId="24cc05cd-cd0b-d97f-230d-74cc13d98e55" testName="FinanceBackend.Tests.TransactionTests.CreateTransaction_WithNegativeAmount_Returns422" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0182963" startTime="2026-04-06T21:46:10.3072960+05:30" endTime="2026-04-06T21:46:10.3072960+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95cd499f-6149-4406-a09b-f213a167d568">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.CreateTransaction_WithNegativeAmount_Returns422() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 124
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87a9ac7c-c256-4ad9-8df5-e180bbb2d0f9" testId="03244335-bf2e-519e-6ef0-f22ca03280c5" testName="FinanceBackend.Tests.TransactionTests.CreateTransaction_AsAdmin_Returns201" computerName="Deepankars-MacBook-Air-2" duration="00:00:01.5225172" startTime="2026-04-06T21:46:10.2861760+05:30" endTime="2026-04-06T21:46:10.2861760+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a9ac7c-c256-4ad9-8df5-e180bbb2d0f9">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Created {value: 201}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.CreateTransaction_AsAdmin_Returns201() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 72
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="70b6fad4-3fe3-4286-8ea3-d6cd2d9e4c6c" testId="564675d2-f319-e7ac-e6d0-fe9e84094ca8" testName="FinanceBackend.Tests.AuthTests.Me_WithValidToken_ReturnsCurrentUser" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0038430" startTime="2026-04-06T21:46:10.3149620+05:30" endTime="2026-04-06T21:46:10.3149620+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70b6fad4-3fe3-4286-8ea3-d6cd2d9e4c6c">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected meResp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.AuthTests.Me_WithValidToken_ReturnsCurrentUser() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs:line 74
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a2fc3f12-8445-4767-af13-c7d77bba8505" testId="81a358d2-679f-4673-11b1-1adccefcd5fd" testName="FinanceBackend.Tests.UserTests.GetUserById_AsSelf_Returns200" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0034414" startTime="2026-04-06T21:46:10.3159960+05:30" endTime="2026-04-06T21:46:10.3159970+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a2fc3f12-8445-4767-af13-c7d77bba8505">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.GetUserById_AsSelf_Returns200() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 106
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2994d822-bac9-48da-8afd-f77aed591f80" testId="0df2b7f2-98aa-7ed0-e886-557e89f15381" testName="FinanceBackend.Tests.UserTests.CreateUser_AsAdmin_Returns201" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0029256" startTime="2026-04-06T21:46:10.3189490+05:30" endTime="2026-04-06T21:46:10.3189490+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2994d822-bac9-48da-8afd-f77aed591f80">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Created {value: 201}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.CreateUser_AsAdmin_Returns201() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 65
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f974e1a2-4ba1-46c1-bb8e-d2ff6d51848d" testId="5802db82-035d-b036-a947-ae971365e940" testName="FinanceBackend.Tests.TransactionTests.GetTransactions_AsAdmin_ReturnsAllRecords" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0022363" startTime="2026-04-06T21:46:10.3258100+05:30" endTime="2026-04-06T21:46:10.3258100+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f974e1a2-4ba1-46c1-bb8e-d2ff6d51848d">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.GetTransactions_AsAdmin_ReturnsAllRecords() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 38
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b3e1c047-6f31-4537-8fdc-8bd68eb45b61" testId="fdeab1e3-2d5e-f66b-39cb-8d5d22714784" testName="FinanceBackend.Tests.TransactionTests.CreateTransaction_WithFutureDate_Returns422" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0026760" startTime="2026-04-06T21:46:10.3101050+05:30" endTime="2026-04-06T21:46:10.3101050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3e1c047-6f31-4537-8fdc-8bd68eb45b61">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.TransactionTests.CreateTransaction_WithFutureDate_Returns422() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 108
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="cba57ffc-13e5-499a-b1fd-ee42d8944644" testId="0faf5472-d029-2e4d-7921-efdd3a8c3df5" testName="FinanceBackend.Tests.TransactionTests.DeleteTransaction_AsAdmin_Returns204" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0128173" startTime="2026-04-06T21:46:10.3236190+05:30" endTime="2026-04-06T21:46:10.3236190+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cba57ffc-13e5-499a-b1fd-ee42d8944644">
+      <Output>
+        <ErrorInfo>
+          <Message>System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.</Message>
+          <StackTrace>   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+   at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)
+   at FinanceBackend.Tests.TransactionTests.DeleteTransaction_AsAdmin_Returns204() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs:line 140
+--- End of stack trace from previous location ---
+----- Inner Stack Trace -----
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="53a304c0-e193-4076-9fd0-12263fa83729" testId="079e8f57-481a-78a8-f268-cfbb32cb0e94" testName="FinanceBackend.Tests.UserTests.CreateUser_DuplicateEmail_Returns409" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0048807" startTime="2026-04-06T21:46:10.3036240+05:30" endTime="2026-04-06T21:46:10.3036240+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53a304c0-e193-4076-9fd0-12263fa83729">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Conflict {value: 409}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.UserTests.CreateUser_DuplicateEmail_Returns409() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs:line 80
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd9da96a-3d0e-47f2-a699-e5d965aed3e8" testId="6bbb00aa-8dff-0c37-9c44-f66ee2e6f45a" testName="FinanceBackend.Tests.DashboardTests.ByCategory_AsViewer_Returns403" computerName="Deepankars-MacBook-Air-2" duration="00:00:00.0025617" startTime="2026-04-06T21:46:10.3083020+05:30" endTime="2026-04-06T21:46:10.3083020+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd9da96a-3d0e-47f2-a699-e5d965aed3e8">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+   at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+   at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+   at FinanceBackend.Tests.DashboardTests.ByCategory_AsViewer_Returns403() in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs:line 65
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="FinanceBackend.Tests.UserTests.CreateUser_AsAdmin_Returns201" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="0df2b7f2-98aa-7ed0-e886-557e89f15381">
+      <Execution id="2994d822-bac9-48da-8afd-f77aed591f80" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="CreateUser_AsAdmin_Returns201" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.GetUserById_AsSelf_Returns200" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="81a358d2-679f-4673-11b1-1adccefcd5fd">
+      <Execution id="a2fc3f12-8445-4767-af13-c7d77bba8505" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="GetUserById_AsSelf_Returns200" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.CreateUser_WeakPassword_Returns422" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="70b45940-5a40-7fdf-35d7-2e91358ca04b">
+      <Execution id="90a00fa8-e636-4b4f-b1f6-9b83e9919dec" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="CreateUser_WeakPassword_Returns422" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.CreateTransaction_AsAdmin_Returns201" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="03244335-bf2e-519e-6ef0-f22ca03280c5">
+      <Execution id="87a9ac7c-c256-4ad9-8df5-e180bbb2d0f9" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="CreateTransaction_AsAdmin_Returns201" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.CreateTransaction_WithNegativeAmount_Returns422" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="24cc05cd-cd0b-d97f-230d-74cc13d98e55">
+      <Execution id="95cd499f-6149-4406-a09b-f213a167d568" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="CreateTransaction_WithNegativeAmount_Returns422" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.Summary_AsViewer_Returns200WithCorrectTotals" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="8fe2c3f5-863f-2bde-fda8-d1c89a6eeb2a">
+      <Execution id="4d18c768-3b81-4c76-9282-5b0b147fa71c" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="Summary_AsViewer_Returns200WithCorrectTotals" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.AuthTests.Login_ValidCredentials_ReturnsToken" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="867f3be1-4357-dd8c-b45f-4aafe0faa7b3">
+      <Execution id="4dac4381-7be2-4738-8732-8a3fcd0dd741" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.AuthTests" name="Login_ValidCredentials_ReturnsToken" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.AuthTests.Login_WrongPassword_Returns401" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="3aab175b-f49e-201c-cb0b-39e0dc4f3dbc">
+      <Execution id="188bfe95-8331-46ba-9bb3-62b1af2ecbff" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.AuthTests" name="Login_WrongPassword_Returns401" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.CreateTransaction_AsViewer_Returns403" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="c3aa8a08-1d7c-938b-4c98-5f16ff8a1bf3">
+      <Execution id="978eda8e-07b0-45ae-896e-b6abb1e76c03" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="CreateTransaction_AsViewer_Returns403" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.Trends_AsAdmin_Returns200WithData" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="f76a4fd6-6cd0-2bd8-15aa-7b59b2b11bd2">
+      <Execution id="2f42c891-43bf-4228-9361-0c3ca3c1c310" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="Trends_AsAdmin_Returns200WithData" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.GetTransactions_AsAdmin_ReturnsAllRecords" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="5802db82-035d-b036-a947-ae971365e940">
+      <Execution id="f974e1a2-4ba1-46c1-bb8e-d2ff6d51848d" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="GetTransactions_AsAdmin_ReturnsAllRecords" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.AuthTests.Me_WithoutToken_Returns401" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="457bcedc-7efb-0c12-f6d2-ccd743f3df1c">
+      <Execution id="75aaaa95-872b-4418-9954-b58483bbe5c4" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.AuthTests" name="Me_WithoutToken_Returns401" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.GetUserById_AsViewerForAnotherUser_Returns403" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="ce07db60-47ed-befc-7b03-682df35c249c">
+      <Execution id="23ffae49-5653-4015-8a31-c8ae075c0477" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="GetUserById_AsViewerForAnotherUser_Returns403" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.ByCategory_AsViewer_Returns403" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="6bbb00aa-8dff-0c37-9c44-f66ee2e6f45a">
+      <Execution id="fd9da96a-3d0e-47f2-a699-e5d965aed3e8" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="ByCategory_AsViewer_Returns403" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UnitTest1.Test1" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="1a915026-d29a-b691-631a-8c6f5103520d">
+      <Execution id="4aa02107-3387-4053-98c4-fd2f10236c3c" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UnitTest1" name="Test1" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.Dashboard_WithoutToken_Returns401" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="e8e95d9d-02a9-895e-2c8f-935fbb782d61">
+      <Execution id="0f92ce36-fb27-415a-b38d-61bfb96647a4" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="Dashboard_WithoutToken_Returns401" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.CreateTransaction_WithFutureDate_Returns422" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="fdeab1e3-2d5e-f66b-39cb-8d5d22714784">
+      <Execution id="b3e1c047-6f31-4537-8fdc-8bd68eb45b61" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="CreateTransaction_WithFutureDate_Returns422" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.CreateUser_DuplicateEmail_Returns409" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="079e8f57-481a-78a8-f268-cfbb32cb0e94">
+      <Execution id="53a304c0-e193-4076-9fd0-12263fa83729" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="CreateUser_DuplicateEmail_Returns409" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.Recent_AsAdmin_ReturnsUpTo10Records" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="b502fb20-1400-70a7-056d-d229e2be562b">
+      <Execution id="47190f2b-a84d-413a-9c5a-b13b5a000ee0" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="Recent_AsAdmin_ReturnsUpTo10Records" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.DashboardTests.ByCategory_AsAnalyst_Returns200" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="f0481b62-fb39-58b5-f4f3-5b3ffaf4655b">
+      <Execution id="fe97bf8d-c760-4a0b-bfcb-05fc65804c2c" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.DashboardTests" name="ByCategory_AsAnalyst_Returns200" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.AuthTests.Login_InvalidEmail_Returns422" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="b7f418df-0096-7ebf-cb25-4614409d117e">
+      <Execution id="3c75fa41-2572-4270-8b6f-7c84bddc5008" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.AuthTests" name="Login_InvalidEmail_Returns422" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.DeactivateUser_AsAdmin_Returns204" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="2fc47ed2-3f58-1b1e-be1c-519d680b0b12">
+      <Execution id="ed9d47e5-e794-4fdf-9dd3-88c14a39b19a" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="DeactivateUser_AsAdmin_Returns204" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.GetTransactions_AsViewer_ReturnsOnlyOwnRecords" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="547c0ce6-c615-1d08-27f7-38fd28e34d55">
+      <Execution id="c3e418f7-7744-4d20-b8e6-37d6edc2177f" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="GetTransactions_AsViewer_ReturnsOnlyOwnRecords" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.TransactionTests.DeleteTransaction_AsAdmin_Returns204" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="0faf5472-d029-2e4d-7921-efdd3a8c3df5">
+      <Execution id="cba57ffc-13e5-499a-b1fd-ee42d8944644" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.TransactionTests" name="DeleteTransaction_AsAdmin_Returns204" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.AuthTests.Me_WithValidToken_ReturnsCurrentUser" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="564675d2-f319-e7ac-e6d0-fe9e84094ca8">
+      <Execution id="70b6fad4-3fe3-4286-8ea3-d6cd2d9e4c6c" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.AuthTests" name="Me_WithValidToken_ReturnsCurrentUser" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.GetAllUsers_AsViewer_Returns403" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="74096125-3ba9-d503-df1c-3bb80087c06a">
+      <Execution id="5b5c3826-12c1-47b4-bae4-8c142c9885ba" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="GetAllUsers_AsViewer_Returns403" />
+    </UnitTest>
+    <UnitTest name="FinanceBackend.Tests.UserTests.GetAllUsers_AsAdmin_Returns200" storage="/users/deepankarkarn/desktop/financedataprocessing_backend/tests/financebackend.tests/bin/debug/net8.0/financebackend.tests.dll" id="7ab904f7-668f-3275-e1eb-cc4bc6d8825f">
+      <Execution id="0c0d7c92-31a5-465a-bc0f-1bdd14839a30" />
+      <TestMethod codeBase="/Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/bin/Debug/net8.0/FinanceBackend.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FinanceBackend.Tests.UserTests" name="GetAllUsers_AsAdmin_Returns200" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="547c0ce6-c615-1d08-27f7-38fd28e34d55" executionId="c3e418f7-7744-4d20-b8e6-37d6edc2177f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3aa8a08-1d7c-938b-4c98-5f16ff8a1bf3" executionId="978eda8e-07b0-45ae-896e-b6abb1e76c03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="867f3be1-4357-dd8c-b45f-4aafe0faa7b3" executionId="4dac4381-7be2-4738-8732-8a3fcd0dd741" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2fc47ed2-3f58-1b1e-be1c-519d680b0b12" executionId="ed9d47e5-e794-4fdf-9dd3-88c14a39b19a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a915026-d29a-b691-631a-8c6f5103520d" executionId="4aa02107-3387-4053-98c4-fd2f10236c3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="457bcedc-7efb-0c12-f6d2-ccd743f3df1c" executionId="75aaaa95-872b-4418-9954-b58483bbe5c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8e95d9d-02a9-895e-2c8f-935fbb782d61" executionId="0f92ce36-fb27-415a-b38d-61bfb96647a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f76a4fd6-6cd0-2bd8-15aa-7b59b2b11bd2" executionId="2f42c891-43bf-4228-9361-0c3ca3c1c310" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce07db60-47ed-befc-7b03-682df35c249c" executionId="23ffae49-5653-4015-8a31-c8ae075c0477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3aab175b-f49e-201c-cb0b-39e0dc4f3dbc" executionId="188bfe95-8331-46ba-9bb3-62b1af2ecbff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7f418df-0096-7ebf-cb25-4614409d117e" executionId="3c75fa41-2572-4270-8b6f-7c84bddc5008" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ab904f7-668f-3275-e1eb-cc4bc6d8825f" executionId="0c0d7c92-31a5-465a-bc0f-1bdd14839a30" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0481b62-fb39-58b5-f4f3-5b3ffaf4655b" executionId="fe97bf8d-c760-4a0b-bfcb-05fc65804c2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74096125-3ba9-d503-df1c-3bb80087c06a" executionId="5b5c3826-12c1-47b4-bae4-8c142c9885ba" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70b45940-5a40-7fdf-35d7-2e91358ca04b" executionId="90a00fa8-e636-4b4f-b1f6-9b83e9919dec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b502fb20-1400-70a7-056d-d229e2be562b" executionId="47190f2b-a84d-413a-9c5a-b13b5a000ee0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8fe2c3f5-863f-2bde-fda8-d1c89a6eeb2a" executionId="4d18c768-3b81-4c76-9282-5b0b147fa71c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24cc05cd-cd0b-d97f-230d-74cc13d98e55" executionId="95cd499f-6149-4406-a09b-f213a167d568" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03244335-bf2e-519e-6ef0-f22ca03280c5" executionId="87a9ac7c-c256-4ad9-8df5-e180bbb2d0f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="564675d2-f319-e7ac-e6d0-fe9e84094ca8" executionId="70b6fad4-3fe3-4286-8ea3-d6cd2d9e4c6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81a358d2-679f-4673-11b1-1adccefcd5fd" executionId="a2fc3f12-8445-4767-af13-c7d77bba8505" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0df2b7f2-98aa-7ed0-e886-557e89f15381" executionId="2994d822-bac9-48da-8afd-f77aed591f80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5802db82-035d-b036-a947-ae971365e940" executionId="f974e1a2-4ba1-46c1-bb8e-d2ff6d51848d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fdeab1e3-2d5e-f66b-39cb-8d5d22714784" executionId="b3e1c047-6f31-4537-8fdc-8bd68eb45b61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0faf5472-d029-2e4d-7921-efdd3a8c3df5" executionId="cba57ffc-13e5-499a-b1fd-ee42d8944644" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="079e8f57-481a-78a8-f268-cfbb32cb0e94" executionId="53a304c0-e193-4076-9fd0-12263fa83729" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6bbb00aa-8dff-0c37-9c44-f66ee2e6f45a" executionId="fd9da96a-3d0e-47f2-a699-e5d965aed3e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="27" executed="27" passed="4" failed="23" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.17)
+[xUnit.net 00:00:00.03]   Discovering: FinanceBackend.Tests
+[xUnit.net 00:00:00.05]   Discovered:  FinanceBackend.Tests
+[xUnit.net 00:00:00.05]   Starting:    FinanceBackend.Tests
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 0 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 0 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 0 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 0 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 5 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 5 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 5 entities to in-memory store.
+info: Microsoft.EntityFrameworkCore.Update[30100]
+      Saved 5 entities to in-memory store.
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.59]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.59]       Stack Trace:
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.59]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs(52,0): at FinanceBackend.Tests.DashboardTests.ByCategory_AsAnalyst_Returns200()
+[xUnit.net 00:00:01.59]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.59]       Expected resp.StatusCode to be HttpStatusCode.Created {value: 201}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.59]       Stack Trace:
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+[xUnit.net 00:00:01.59]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.59]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.59]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(72,0): at FinanceBackend.Tests.TransactionTests.CreateTransaction_AsAdmin_Returns201()
+[xUnit.net 00:00:01.59]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.60]       Expected response.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.60]       Stack Trace:
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.60]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs(26,0): at FinanceBackend.Tests.AuthTests.Login_ValidCredentials_ReturnsToken()
+[xUnit.net 00:00:01.60]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.60]       Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.60]       Stack Trace:
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.60]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(116,0): at FinanceBackend.Tests.UserTests.GetUserById_AsViewerForAnotherUser_Returns403()
+[xUnit.net 00:00:01.60]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.60]       Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.60]       Stack Trace:
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.60]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(49,0): at FinanceBackend.Tests.UserTests.GetAllUsers_AsViewer_Returns403()
+[xUnit.net 00:00:01.60]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.60]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.60]       Stack Trace:
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.60]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs(74,0): at FinanceBackend.Tests.DashboardTests.Trends_AsAdmin_Returns200WithData()
+[xUnit.net 00:00:01.60]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.60]       Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.60]       Stack Trace:
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.60]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.60]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(91,0): at FinanceBackend.Tests.TransactionTests.CreateTransaction_AsViewer_Returns403()
+[xUnit.net 00:00:01.60]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.61]       Expected resp.StatusCode to be HttpStatusCode.Conflict {value: 409}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.61]       Stack Trace:
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.61]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(80,0): at FinanceBackend.Tests.UserTests.CreateUser_DuplicateEmail_Returns409()
+[xUnit.net 00:00:01.61]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.61]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.61]       Stack Trace:
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.61]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.61]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs(37,0): at FinanceBackend.Tests.DashboardTests.Summary_AsViewer_Returns200WithCorrectTotals()
+[xUnit.net 00:00:01.61]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(124,0): at FinanceBackend.Tests.TransactionTests.CreateTransaction_WithNegativeAmount_Returns422()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(96,0): at FinanceBackend.Tests.UserTests.CreateUser_WeakPassword_Returns422()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.Forbidden {value: 403}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs(65,0): at FinanceBackend.Tests.DashboardTests.ByCategory_AsViewer_Returns403()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(108,0): at FinanceBackend.Tests.TransactionTests.CreateTransaction_WithFutureDate_Returns422()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.62]       Expected response.StatusCode to be HttpStatusCode.UnprocessableEntity {value: 422}, but found HttpStatusCode.BadRequest {value: 400}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs(56,0): at FinanceBackend.Tests.AuthTests.Login_InvalidEmail_Returns422()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/DashboardTests.cs(86,0): at FinanceBackend.Tests.DashboardTests.Recent_AsAdmin_ReturnsUpTo10Records()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(36,0): at FinanceBackend.Tests.UserTests.GetAllUsers_AsAdmin_Returns200()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.62]       Expected meResp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/AuthTests.cs(74,0): at FinanceBackend.Tests.AuthTests.Me_WithValidToken_ReturnsCurrentUser()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.62]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.62]       Stack Trace:
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.62]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.62]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(106,0): at FinanceBackend.Tests.UserTests.GetUserById_AsSelf_Returns200()
+[xUnit.net 00:00:01.62]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.63]       Expected resp.StatusCode to be HttpStatusCode.Created {value: 201}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.63]       Stack Trace:
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.63]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(65,0): at FinanceBackend.Tests.UserTests.CreateUser_AsAdmin_Returns201()
+[xUnit.net 00:00:01.63]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.63]       System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+[xUnit.net 00:00:01.63]       ---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+[xUnit.net 00:00:01.63]       Stack Trace:
+[xUnit.net 00:00:01.63]            at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+[xUnit.net 00:00:01.63]            at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)
+[xUnit.net 00:00:01.63]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(140,0): at FinanceBackend.Tests.TransactionTests.DeleteTransaction_AsAdmin_Returns204()
+[xUnit.net 00:00:01.63]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.63]         ----- Inner Stack Trace -----
+[xUnit.net 00:00:01.63]            at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Utf8JsonReader.Read()
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+[xUnit.net 00:00:01.63]       System.Text.Json.JsonException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. Path: $ | LineNumber: 0 | BytePositionInLine: 0.
+[xUnit.net 00:00:01.63]       ---- System.Text.Json.JsonReaderException : The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 0 | BytePositionInLine: 0.
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+[xUnit.net 00:00:01.63]       Stack Trace:
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+[xUnit.net 00:00:01.63]            at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack&amp; state, JsonReaderException ex)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.ContinueDeserialize(ReadBufferState&amp; bufferState, JsonReaderState&amp; jsonReaderState, ReadStack&amp; readStack)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.DeserializeAsync(Stream utf8Json, CancellationToken cancellationToken)
+[xUnit.net 00:00:01.63]            at System.Net.Http.Json.HttpContentJsonExtensions.ReadFromJsonAsyncCore[T](HttpContent content, JsonSerializerOptions options, CancellationToken cancellationToken)
+[xUnit.net 00:00:01.63]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/UserTests.cs(132,0): at FinanceBackend.Tests.UserTests.DeactivateUser_AsAdmin_Returns204()
+[xUnit.net 00:00:01.63]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.63]         ----- Inner Stack Trace -----
+[xUnit.net 00:00:01.63]            at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader&amp; json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+[xUnit.net 00:00:01.63]            at System.Text.Json.Utf8JsonReader.Read()
+[xUnit.net 00:00:01.63]            at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader&amp; reader, JsonSerializerOptions options, ReadStack&amp; state)
+[xUnit.net 00:00:01.63]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.63]       Stack Trace:
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.63]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.63]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(38,0): at FinanceBackend.Tests.TransactionTests.GetTransactions_AsAdmin_ReturnsAllRecords()
+[xUnit.net 00:00:01.63]         --- End of stack trace from previous location ---
+fail: FinanceBackend.Middleware.ExceptionMiddleware[0]
+      Unhandled exception: Invalid email or password.
+      System.UnauthorizedAccessException: Invalid email or password.
+         at FinanceBackend.Services.AuthService.LoginAsync(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Services/AuthService.cs:line 29
+         at FinanceBackend.Controllers.AuthController.Login(LoginRequest request) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Controllers/AuthController.cs:line 26
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+      --- End of stack trace from previous location ---
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+         at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+         at FinanceBackend.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext ctx) in /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/src/FinanceBackend/Middleware/ExceptionMiddleware.cs:line 25
+[xUnit.net 00:00:01.64]       Expected resp.StatusCode to be HttpStatusCode.OK {value: 200}, but found HttpStatusCode.Unauthorized {value: 401}.
+[xUnit.net 00:00:01.64]       Stack Trace:
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.XUnit2TestFramework.Throw(String message)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.TestFrameworkProvider.Throw(String message)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.AssertionScope.FailWith(Func`1 failReasonFunc)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Execution.AssertionScope.FailWith(String message, Object[] args)
+[xUnit.net 00:00:01.64]            at FluentAssertions.Primitives.EnumAssertions`2.Be(TEnum expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:01.64]         /Users/deepankarkarn/Desktop/FinanceDataProcessing_Backend/tests/FinanceBackend.Tests/TransactionTests.cs(52,0): at FinanceBackend.Tests.TransactionTests.GetTransactions_AsViewer_ReturnsOnlyOwnRecords()
+[xUnit.net 00:00:01.64]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:01.64]   Finished:    FinanceBackend.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2841660+05:30">
+        <Text>[xUnit.net 00:00:01.59]     FinanceBackend.Tests.DashboardTests.ByCategory_AsAnalyst_Returns200 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2858210+05:30">
+        <Text>[xUnit.net 00:00:01.59]     FinanceBackend.Tests.TransactionTests.CreateTransaction_AsAdmin_Returns201 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2864350+05:30">
+        <Text>[xUnit.net 00:00:01.60]     FinanceBackend.Tests.AuthTests.Login_ValidCredentials_ReturnsToken [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2868680+05:30">
+        <Text>[xUnit.net 00:00:01.60]     FinanceBackend.Tests.UserTests.GetUserById_AsViewerForAnotherUser_Returns403 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2898600+05:30">
+        <Text>[xUnit.net 00:00:01.60]     FinanceBackend.Tests.UserTests.GetAllUsers_AsViewer_Returns403 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2898830+05:30">
+        <Text>[xUnit.net 00:00:01.60]     FinanceBackend.Tests.DashboardTests.Trends_AsAdmin_Returns200WithData [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.2899000+05:30">
+        <Text>[xUnit.net 00:00:01.60]     FinanceBackend.Tests.TransactionTests.CreateTransaction_AsViewer_Returns403 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3040000+05:30">
+        <Text>[xUnit.net 00:00:01.61]     FinanceBackend.Tests.UserTests.CreateUser_DuplicateEmail_Returns409 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3053490+05:30">
+        <Text>[xUnit.net 00:00:01.61]     FinanceBackend.Tests.DashboardTests.Summary_AsViewer_Returns200WithCorrectTotals [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3072710+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.TransactionTests.CreateTransaction_WithNegativeAmount_Returns422 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3076740+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.UserTests.CreateUser_WeakPassword_Returns422 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3098210+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.DashboardTests.ByCategory_AsViewer_Returns403 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3101760+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.TransactionTests.CreateTransaction_WithFutureDate_Returns422 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3106690+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.AuthTests.Login_InvalidEmail_Returns422 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3123400+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.DashboardTests.Recent_AsAdmin_ReturnsUpTo10Records [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3128860+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.UserTests.GetAllUsers_AsAdmin_Returns200 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3149750+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.AuthTests.Me_WithValidToken_ReturnsCurrentUser [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3161140+05:30">
+        <Text>[xUnit.net 00:00:01.62]     FinanceBackend.Tests.UserTests.GetUserById_AsSelf_Returns200 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3189860+05:30">
+        <Text>[xUnit.net 00:00:01.63]     FinanceBackend.Tests.UserTests.CreateUser_AsAdmin_Returns201 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3235760+05:30">
+        <Text>[xUnit.net 00:00:01.63]     FinanceBackend.Tests.TransactionTests.DeleteTransaction_AsAdmin_Returns204 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3248160+05:30">
+        <Text>[xUnit.net 00:00:01.63]     FinanceBackend.Tests.UserTests.DeactivateUser_AsAdmin_Returns204 [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3257650+05:30">
+        <Text>[xUnit.net 00:00:01.63]     FinanceBackend.Tests.TransactionTests.GetTransactions_AsAdmin_ReturnsAllRecords [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="Deepankars-MacBook-Air-2" outcome="Error" timestamp="2026-04-06T21:46:10.3280110+05:30">
+        <Text>[xUnit.net 00:00:01.64]     FinanceBackend.Tests.TransactionTests.GetTransactions_AsViewer_ReturnsOnlyOwnRecords [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>
